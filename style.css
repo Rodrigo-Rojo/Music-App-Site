@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ) , url(https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.main {
+    
+}   
+
+.music-app {
+    color: #fff;
+    display: grid;
+    gap: 200px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10%;
+    padding-top: 10%;
+}
+
+.app-data {
+    padding-left: 10%;
+}
+
+.fs-4 {
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.text-muted {
+    color: #dee2e6 !important;
+}
